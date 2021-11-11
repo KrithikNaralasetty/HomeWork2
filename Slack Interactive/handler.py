@@ -27,5 +27,3 @@ def handle(req):
         ]
     }
     return json.dumps(data)
-
-handle("laskdjhfasljdhf")
