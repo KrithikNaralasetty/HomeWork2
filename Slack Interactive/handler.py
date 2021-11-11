@@ -2,7 +2,7 @@ import json
 import urllib.parse
 
 def handle(req):
-    urlstring = urllib.parse.unquote(req).decode('utf8').strip('payload=')
+    urlstring = urllib.parse.unquote(req).strip('payload=')
     response = json.loads(urlstring)
     data = {
         "attachments": [
@@ -27,3 +27,5 @@ def handle(req):
         ]
     }
     return json.dumps(data)
+
+handle("laskdjhfasljdhf")
