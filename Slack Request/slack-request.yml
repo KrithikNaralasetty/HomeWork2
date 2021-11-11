@@ -3,8 +3,8 @@ provider:
   gateway: http://127.0.0.1:8080
 functions:
   slack-request:
-    lang: python
+    lang: python3
     handler: ./slack-request
-    image: <YOUR_DOCKER_HUB_ACCOUNT>/slack-request
+    image: knaralasetty/slack-request
     environment:
       content_type: application/json

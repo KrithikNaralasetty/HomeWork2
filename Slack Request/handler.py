@@ -10,9 +10,9 @@ def handle(req):
                 "value": "100",
                 "short": True
             }],
-            "author_name": <FILL IN THE BLANK>,
+            "author_name": "https://github.com/KrithikNaralasetty",
             "author_icon": "",
-            "image_url": <FILL IN THE BLANK>
+            "image_url": "https://image.shutterstock.com/image-photo/three-best-friends-near-coastline-600w-1017156991.jpg"
         },
         {
             "title": "About COEN 241",

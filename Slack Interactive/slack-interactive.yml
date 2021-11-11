@@ -3,8 +3,8 @@ provider:
   gateway: http://127.0.0.1:8080
 functions:
   slack-interactive:
-    lang: python
+    lang: python3
     handler: ./slack-interactive
-    image: <YOUR_DOCKER_HUB_ACCT>/slack-interactive
+    image: knaralasetty/slack-interactive
     environment:
       content_type: application/json
